@@ -10,6 +10,8 @@ body {
     background-color: #e5e5e5;
 }
 
+/* SECCIÓn HEADER */
+
 header {
     display: flex;
     justify-content: center;
@@ -23,7 +25,7 @@ header {
 
 .container {
     background-color: rgb(255, 255, 255);
-    width: 80%;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,4 +44,67 @@ ul {
     font-size: 14px;
     color: #00a6fb;
     margin-right: 50px;
+}
+
+/* SECCIÓN HERO */
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#hero {
+    background-color: #023047;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 54px;
+}
+
+.hero-info h1 {
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+
+}
+
+.hero-info p {
+    color: white;
+    font-size: 15px;
+    width: 70%;
+}
+
+.cover {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cover {
+    width: 80%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn-contacto {
+    margin-right: 10px;
 }
