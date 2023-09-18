@@ -21,7 +21,7 @@ header {
     width: 100px;
     height: 100px;
     margin-left: 50px;
-  
+
 }
 
 .container {
@@ -30,7 +30,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+   
+
+
 
 }
 
