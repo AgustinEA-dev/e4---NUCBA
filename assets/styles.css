@@ -103,6 +103,7 @@ main {
     border: 1px solid white;
     padding: 10px;
     border-radius: 8px;
+    text-transform: uppercase;
 }
 
 .btn-contacto {
