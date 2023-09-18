@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #e5e5e5;
+    background-color: #023047;
 }
 
 /* SECCIÓn HEADER */
@@ -21,16 +21,17 @@ header {
     width: 100px;
     height: 100px;
     margin-left: 50px;
+  
 }
 
 .container {
     background-color: rgb(255, 255, 255);
-    width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    border-radius: 10px 10px 0 0;
+
 }
 
 ul {
@@ -41,8 +42,9 @@ ul {
 
 .links {
     text-decoration: none;
-    font-size: 14px;
-    color: #00a6fb;
+    font-size: 15px;
+    font-weight: bold;
+    color: #38c5e1;
     margin-right: 50px;
 }
 
@@ -99,6 +101,11 @@ main {
     border-radius: 8px;
 }
 
+.hero-links {
+    display: flex;
+    gap: 20px;
+}
+
 .btn {
     color: white;
     text-decoration: none;
@@ -108,9 +115,6 @@ main {
     text-transform: uppercase;
 }
 
-.btn-contacto {
-    margin-right: 10px;
-}
 
 /* OTRA SECTION */
 
@@ -118,7 +122,7 @@ main {
     max-width: 1200px;
     background-color: #023047;
     color: white;
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 #company-info p {
