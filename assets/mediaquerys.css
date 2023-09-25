@@ -1,0 +1,123 @@
+/* TABLET */
+
+@media (max-width: 992px) {
+
+    .container p {
+        margin: 0 0 0 20px;
+    }
+
+    .menu-label {
+        display: flex;
+        order: 2;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 65px;
+        width: 100%;
+        flex-direction: column;
+        background: linear-gradient(to bottom, rgb(11, 11, 10), #023047);
+        border: 2px solid white;
+        border-top: 0;
+        padding: 45px 30px;
+        border-radius: 0 0 15px 15px;
+        display: none;
+    }
+
+    #menu-toggle:checked~.navbar-list {
+        display: flex;
+    }
+
+    /* HERO */
+    .hero-info {
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .hero-info h1 {
+        max-width: 500px;
+        width: 90%;
+    }
+
+    .hero-info p {
+        max-width: 600px;
+        width: 80%;
+    }
+
+    .hero-links {
+        justify-content: center;
+    }
+
+    .cover {
+        display: none;
+    }
+
+    /* COMPANY INFO */
+
+    #company-info {
+        max-width: 600px;
+        width: 80%;
+    }
+
+    /* SECTION NUESTRAS VENTAJAS */
+
+    .page-cards {
+        max-width: 600px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* SECTION CONTACTANOS */
+
+    .contactanos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactanos h2 {
+        text-align: center;
+    }
+
+    .info-uno h3 {
+        text-align: center;
+    }
+
+    .info-dos h3 {
+        text-align: center;
+    }
+
+    .info-icons {
+        align-items: center;
+    }
+
+    .contactanos-info {
+        align-items: center;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .contact-img {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 578px) {
+
+    .computer-img {
+        width: 300px;
+        height: 300px;
+    }
+
+}
